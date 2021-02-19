@@ -2,17 +2,17 @@ import requests
 import os
 from datetime import datetime
 
-APP_ID = "5b31d342"
-API_KEY = "2ff47bf64cbe88bd8ea4e6ebe3f14d91"
-TOKEN = "ksmdfkmksmdfkmsdfksdkfmskksd"
+APP_ID = APP ID
+API_KEY = APP KEY
+TOKEN = TOKEN API
 
-GENDER = "female"
-WEIGHT_KG = 102
-HEIGHT_CM = 165
-AGE = 35
+GENDER = YOUR GENDER
+WEIGHT_KG = YOUR WEIGHT
+HEIGHT_CM = YOUR HEIGHT
+AGE = YOUR AGE
 
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
-sheet_endpoint = "https://api.sheety.co/b1a2a30c681f6bc9e4dce1303cb84447/workoutTracking/workouts"
+sheet_endpoint = SHEETY ENDPOINT
 
 today = datetime.now().strftime("%d/%m/%Y")
 hour = datetime.now().strftime("%X")
